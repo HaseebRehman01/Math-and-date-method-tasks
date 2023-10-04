@@ -168,9 +168,24 @@
 // }else{
 //     alert(" Its pm")
 // }
-var twenty = new Date (2020 , 11 , 31)
-console.log(twenty)
 
+// task 18
+// var twenty = new Date (2020 , 11 , 31)
+// console.log(twenty)
+
+
+// task 19
+var ramadanStartDate = new Date(2023, 5, 18); // Months are 0-based, so 5 represents June
+
+var currentDate = new Date();
+
+// Calculate the time difference in milliseconds
+var timeDifference = currentDate - ramadanStartDate;
+
+// Convert milliseconds to days
+var daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+alert("Number of days passed since 1st Ramadan: " + daysPassed);
 
 
 

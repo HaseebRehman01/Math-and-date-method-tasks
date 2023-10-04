@@ -75,6 +75,33 @@
 //     console.log("teal")
 // }
 // task 8
-var b = Math.ceil(Math.random()*100)
-console.log(b)
+// var b = Math.ceil(Math.random()*100)
+// console.log(b)
 
+// task 9   
+// var userInput = prompt("Please enter your weight:");
+// var weightInKgs = userInput.replace(/[^\d.]/g, "");
+// var weight = parseFloat(weightInKgs);
+
+// if (!isNaN(weight)) {
+//     alert("Your weight is " + weight + " kgs");
+// } else {
+//     alert("Invalid input. Please enter a valid weight.");
+// }   
+// task 10 
+
+var num = 6;
+var p = parseInt(prompt("Write a number between 1 to 10"));
+
+
+if (!isNaN(p)) {
+    if (p === num) {
+        alert("Congrats");
+    
+    } else {
+        alert("Try again");
+        
+    }
+} else {
+    alert("Write a number!");
+}

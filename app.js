@@ -90,18 +90,23 @@
 // }   
 // task 10 
 
-var num = 6;
-var p = parseInt(prompt("Write a number between 1 to 10"));
+// var num = 6;
+// var p = parseInt(prompt("Write a number between 1 to 10"));
 
 
-if (!isNaN(p)) {
-    if (p === num) {
-        alert("Congrats");
+// if (!isNaN(p)) {
+//     if (p === num) {
+//         alert("Congrats");
     
-    } else {
-        alert("Try again");
+//     } else {
+//         alert("Try again");
         
-    }
-} else {
-    alert("Write a number!");
-}
+//     }
+// } else {
+//     alert("Write a number!");
+// }
+
+
+
+// task 11
+console.log(new Date ())

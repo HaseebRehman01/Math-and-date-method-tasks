@@ -196,24 +196,28 @@
 // console.log(d);
 
 // task 21
-// Step 1: Create a Date object for the current date and time
+
+// var currentDate = new Date();
 
 
+// var currentHours = currentDate.getHours();
 
 
+//   var b =currentDate.setHours(currentHours + 1);
+// console.log(currentDate);
+// var b = new Date();
+// console.log( "1 hour ago it was , "+b)
+// task 22
 
-var currentDate = new Date();
+// var n = new Date()
+// var b = new Date (1917,9,5)
+// console.log(n)
+// console.log( "100 years back it was "+b)
 
+// task 23
+var b = parseInt(prompt("Enter your age "))
 
-var currentHours = currentDate.getHours();
-
-
-  var b =currentDate.setHours(currentHours + 1);
-console.log(currentDate);
-var b = new Date();
-console.log( "1 hour ago it was , "+b)
-
-
-
-
-
+var s = new Date ()
+var h = s.getFullYear()
+var p = h-b
+console.log("Your Birth Year is "+p) 

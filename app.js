@@ -43,14 +43,22 @@
 
 // task 5
 
-var b = prompt("Enter a number");
+// var b = prompt("Enter a number");
 
-if (b < 0) {
-    // b = -b; 
-      b = b * -1         // Calculate the absolute value and assign it back to b
-    console.log(b);
-} else if (b > 0) {
-    console.log(b);
-} else {
-    console.log("Please enter a valid number");
-}
+// if (b < 0) {
+//     // b = -b; 
+//       b = b * -1         // Calculate the absolute value and assign it back to b
+//     console.log(b);
+// } else if (b > 0) {
+//     console.log(b);
+// } else {
+//     console.log("Please enter a valid number");
+// }
+
+// task 6 
+var a = prompt("Write 'Random dice 1'");
+var b = prompt("Write 'Random dice 2'");
+
+console.log(Math.ceil(Math.random() * 6));
+console.log(Math.ceil(Math.random() * 6));
+

@@ -175,17 +175,44 @@
 
 
 // task 19
-var ramadanStartDate = new Date(2023, 5, 18); // Months are 0-based, so 5 represents June
+// var ramadanStartDate = new Date(2023, 5, 18); // Months are 0-based, so 5 represents June
+
+// var currentDate = new Date();
+
+// // Calculate the time difference in milliseconds
+// var timeDifference = currentDate - ramadanStartDate;
+
+// // Convert milliseconds to days
+// var daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+// alert("Number of days passed since 1st Ramadan: " + daysPassed);
+
+
+// task 20 
+// var a = new Date(2015, 11, 5); // December (11) 5, 2015
+// var b = new Date(2015, 0, 1);  // January (0) 1, 2015
+// var c = a - b;
+// var d = c / 1000;
+// console.log(d);
+
+// task 21
+// Step 1: Create a Date object for the current date and time
+
+
+
+
 
 var currentDate = new Date();
 
-// Calculate the time difference in milliseconds
-var timeDifference = currentDate - ramadanStartDate;
 
-// Convert milliseconds to days
-var daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+var currentHours = currentDate.getHours();
 
-alert("Number of days passed since 1st Ramadan: " + daysPassed);
+
+  var b =currentDate.setHours(currentHours + 1);
+console.log(currentDate);
+var b = new Date();
+console.log( "1 hour ago it was , "+b)
+
 
 
 

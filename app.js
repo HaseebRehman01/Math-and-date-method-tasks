@@ -109,4 +109,19 @@
 
 
 // task 11
-console.log(new Date ())
+// console.log(new Date ())
+// tasl 12
+
+
+var arr = ["sun","mon" ,"tue","wed", "thu","fri","sat"]
+var b = new Date();
+var d = b.getDay()
+var c = arr[d]
+console.log(c)
+
+// task 13
+var arr = ["sun","mon" ,"tue","wed", "thurday","fri","sat"]
+var b = new Date();
+var d = b.getDay()
+var c = arr[d]
+console.log("Today "+ "is " +c)

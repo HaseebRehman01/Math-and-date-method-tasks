@@ -64,15 +64,17 @@
 
 // task 7
 
-var toss = Math.random()
-// if is 0 it + 1
-// if 1 it + 1 = 2
-var toss2 = Math.round(toss)+1
-if (toss2 === 1 ){
-    console.log("head")
-}
-else if (toss2 === 2){
-    console.log("teal")
-}
-
+// var toss = Math.random()
+// // if is 0 it + 1
+// // if 1 it + 1 = 2
+// var toss2 = Math.round(toss)+1
+// if (toss2 === 1 ){
+//     console.log("head")
+// }
+// else if (toss2 === 2){
+//     console.log("teal")
+// }
+// task 8
+var b = Math.ceil(Math.random()*100)
+console.log(b)
 

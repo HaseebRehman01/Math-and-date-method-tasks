@@ -42,3 +42,15 @@
 
 
 // task 5
+
+var b = prompt("Enter a number");
+
+if (b < 0) {
+    // b = -b; 
+      b = b * -1         // Calculate the absolute value and assign it back to b
+    console.log(b);
+} else if (b > 0) {
+    console.log(b);
+} else {
+    console.log("Please enter a valid number");
+}

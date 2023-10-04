@@ -113,15 +113,65 @@
 // tasl 12
 
 
-var arr = ["sun","mon" ,"tue","wed", "thu","fri","sat"]
-var b = new Date();
-var d = b.getDay()
-var c = arr[d]
-console.log(c)
+// var arr = ["sun","mon" ,"tue","wed", "thu","fri","sat"]
+// var b = new Date();
+// var d = b.getDay()
+// var c = arr[d]
+// console.log(c)
 
 // task 13
-var arr = ["sun","mon" ,"tue","wed", "thurday","fri","sat"]
-var b = new Date();
-var d = b.getDay()
-var c = arr[d]
-console.log("Today "+ "is " +c)
+// var arr = ["sun","mon" ,"tue","wed", "thurday","fri","sat"]
+// var b = new Date();
+// var d = b.getDay()
+// var c = arr[d]
+// console.log("Today "+ "is " +c)
+
+// task 14 
+// var today = new Date("sun Oct 08 2023 13:51:10 GMT+0500 (Pakistan Standard Time)");
+// console.log(today)
+// var dayOfWeek = today.getDay(); // Get the current day of the week (0 for Sunday, 1 for Monday, ..., 6 for Saturday)
+
+// if (dayOfWeek === 0 || dayOfWeek === 6) {
+//     alert("Sunday is Fun day");
+// } else {
+//     alert("It's not Fun day");
+// }
+
+// task 15 
+// var today = new Date();
+// var b = today.getDate()
+// if (b <= 15  ){
+//     alert("First fifteen days of the month ")
+// }else{
+//     alert("Last  days of the month")
+// }
+
+
+//  task 16 
+// var n = new Date();
+// console.log(n);
+
+// var millisecondsSince1970 = n.getTime();
+// console.log("Milliseconds since 1970: " + millisecondsSince1970);
+
+// var minutesSince1970 = millisecondsSince1970 / 60000; // Corrected the division factor 60000 = 1 minute
+// console.log("Minutes since 1970: " + minutesSince1970);
+
+
+// task 17 
+// var n = new Date ()
+// var b = n.getHours()
+// console.log(b)
+// if (b > 0 && b < 12 )
+// {
+//     alert(" Its am")
+// }else{
+//     alert(" Its pm")
+// }
+var twenty = new Date (2020 , 11 , 31)
+console.log(twenty)
+
+
+
+
+

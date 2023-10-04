@@ -56,9 +56,23 @@
 // }
 
 // task 6 
-var a = prompt("Write 'Random dice 1'");
-var b = prompt("Write 'Random dice 2'");
+// var a = prompt("Write 'Random dice 1'");
+// var b = prompt("Write 'Random dice 2'");
 
-console.log(Math.ceil(Math.random() * 6));
-console.log(Math.ceil(Math.random() * 6));
+// console.log(Math.ceil(Math.random() * 6));
+// console.log(Math.ceil(Math.random() * 6));
+
+// task 7
+
+var toss = Math.random()
+// if is 0 it + 1
+// if 1 it + 1 = 2
+var toss2 = Math.round(toss)+1
+if (toss2 === 1 ){
+    console.log("head")
+}
+else if (toss2 === 2){
+    console.log("teal")
+}
+
 

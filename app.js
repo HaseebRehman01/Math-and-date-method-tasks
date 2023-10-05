@@ -215,9 +215,36 @@
 // console.log( "100 years back it was "+b)
 
 // task 23
-var b = parseInt(prompt("Enter your age "))
+// var b = parseInt(prompt("Enter your age "))
 
-var s = new Date ()
-var h = s.getFullYear()
-var p = h-b
-console.log("Your Birth Year is "+p) 
+// var s = new Date ()
+// var h = s.getFullYear()
+// var p = h-b
+// console.log("Your Birth Year is "+p) 
+
+
+
+// task 24 
+
+// console.log("CHE ELECTRIC BILL")
+// var s = prompt("Enter your name")
+// // var name = "Haseeb  ur rehman "
+// console.log("Name : "+s)
+// // var b = new Date ()
+// var i = prompt("MONTH ")
+// // var mon = b.getMonth()
+// console.log("Month : "+i)
+// var num = 450
+// console.log("Number of units : "+num)
+// var charges = 14
+// console.log("Charges per unit : "+charges )
+
+
+// var calc = num*charges
+
+// var net = calc
+// console.log("Net amount payable ( within dur date ) : "+net )
+// console.log("Late payment purchace : 500 ")
+// var due = net + 500
+// console.log("Gross Amount payable ( after due date ) : " +due )
+
